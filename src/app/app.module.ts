@@ -16,13 +16,15 @@ import { MatCardModule } from '@angular/material/card';
 import { ProductService } from './product.service';
 import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { DeleteproductComponent } from './deleteproduct/deleteproduct.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    AddproductComponent
+    AddproductComponent,
+    DeleteproductComponent
   ],
   imports: [
     BrowserModule,

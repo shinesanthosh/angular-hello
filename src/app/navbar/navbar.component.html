@@ -1,27 +1,43 @@
 <p>
-    <mat-toolbar color="primary">
-      <button button class="example-icon" aria-label="Example icon-button with menu icon">
-        <style>
-          div {
-            width: 25px;
-            height: 1px;
-            background-color: black;
-            margin: 6px 0;
-          }
-          </style>
-        <div></div>
-        <div></div>
-        <div></div>
-      </button>
-      <span>My App</span>
-      <span class="example-spacer"></span>
-      <button routerLink="" class="example-icon favorite-icon" aria-label="Example icon-button with home icon">
-        <mat-icon  >home</mat-icon>
-      </button>
+  <mat-toolbar color="primary">
+    <button
+      button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <style>
+        div {
+          width: 25px;
+          height: 1px;
+          background-color: black;
+          margin: 6px 0;
+        }
+      </style>
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button
+      routerLink=""
+      class="example-icon favorite-icon"
+      aria-label="Example icon-button with home icon"
+    >
+      <mat-icon>home</mat-icon>
+    </button>
 
+    <button
+      routerLink="/add"
+      class="example-icon"
+      aria-label="Example icon-button with add icon"
+    >
+      <mat-icon>note_add</mat-icon>
+    </button>
 
-      <button routerLink="/add" class="example-icon" aria-label="Example icon-button with share icon">
-        <mat-icon>note_add</mat-icon>
-      </button>
-    </mat-toolbar>
-  </p>
+    <button routerLink="/delete" class="example-icon" aria-label="Example icon-button with delete icon">
+      <mat-icon>delete</mat-icon>
+    </button>
+
+  </mat-toolbar>
+</p>

@@ -1,0 +1,15 @@
+<div class="Parent">
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Product ID</mat-label>
+      <input
+        matInput
+        placeholder="Product_ID"
+        [(ngModel)]="product.id"
+        name="id"
+      />
+    </mat-form-field>
+  </p>
+
+  <button mat-button (click)="delete()" aria-label="Delete">Delete</button>
+</div>

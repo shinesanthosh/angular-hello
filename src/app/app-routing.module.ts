@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddproductComponent } from './addproduct/addproduct.component';
 import { HomeComponent } from './home/home.component';
+import { DeleteproductComponent } from './deleteproduct/deleteproduct.component';
 
 const routes: Routes = [
   {
@@ -10,7 +11,11 @@ const routes: Routes = [
   },
   {
     path: 'add',
-    component:AddproductComponent
+    component: AddproductComponent,
+  },
+  {
+    path: 'delete',
+    component: DeleteproductComponent,
   },
 ];
 
